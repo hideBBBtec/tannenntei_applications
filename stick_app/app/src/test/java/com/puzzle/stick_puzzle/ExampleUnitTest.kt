@@ -1,4 +1,4 @@
-package com.puzzle.tanneitei.tanneitei_stick_app
+package com.puzzle.stick_puzzle
 
 import org.junit.Test
 

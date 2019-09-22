@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.puzzle.tanneitei.tanneitei_stick_app">
+    package="com.puzzle.stick_puzzle">
 
     <application
         android:allowBackup="true"

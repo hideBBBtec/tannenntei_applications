@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.puzzle.tanneitei.tanneitei_stick_app"
+        applicationId "com.puzzle.stick_puzzle"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1

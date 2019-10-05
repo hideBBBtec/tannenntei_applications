@@ -313,7 +313,7 @@
 
         <Button
             android:id="@+id/button51"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="8dp"
@@ -325,7 +325,7 @@
 
         <Button
             android:id="@+id/button52"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="24dp"
             android:layout_marginEnd="8dp"
@@ -413,7 +413,7 @@
 
         <Button
             android:id="@+id/button510"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="8dp"
@@ -424,7 +424,7 @@
 
         <Button
             android:id="@+id/button511"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="8dp"
@@ -451,7 +451,7 @@
 
         <Button
             android:id="@+id/button61"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="8dp"
@@ -463,7 +463,7 @@
 
         <Button
             android:id="@+id/button62"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="24dp"
             android:layout_marginEnd="8dp"
@@ -551,7 +551,7 @@
 
         <Button
             android:id="@+id/button610"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="8dp"
@@ -562,7 +562,7 @@
 
         <Button
             android:id="@+id/button611"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="8dp"
@@ -589,7 +589,7 @@
 
         <Button
             android:id="@+id/button71"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="8dp"
@@ -601,7 +601,7 @@
 
         <Button
             android:id="@+id/button72"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="24dp"
             android:layout_marginEnd="8dp"
@@ -689,7 +689,7 @@
 
         <Button
             android:id="@+id/button710"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="8dp"
@@ -700,7 +700,7 @@
 
         <Button
             android:id="@+id/button711"
-            android:layout_width="5dp"
+            android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="8dp"
@@ -1000,5 +1000,22 @@
             android:tag="checked" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="500dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="残り本数："
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 
 </android.support.constraint.ConstraintLayout>
